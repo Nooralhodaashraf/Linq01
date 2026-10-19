@@ -73,6 +73,16 @@ namespace Linq01
             //Console.WriteLine($"Name: {product1.Name}, Price: {product1.Price}, StockStatus: {(product1.StockStatus > 0 ? "Available" : "Out of Stock")}");
 
             #endregion
+
+            #region 7. Print each product's name along with its position (1-based) in the list. Expected format: 1.Chai, 2.Chang, etc.
+           //var productsWithPosition = ProductList.Select((p, index) => new { Position = index + 1, p.ProductName });
+
+
+
+           // foreach (var item in productsWithPosition)
+           //    Console.WriteLine($"{item.Position}. {item.ProductName}");
+
+            #endregion
         }
     }
 }
