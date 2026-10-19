@@ -66,7 +66,6 @@ namespace Linq01
 
             #endregion
 
-
             #region 6. Create a new anonymous type with three properties: ● Name → the product name● Price → the unit price● StockStatus → a string: "Available" if UnitsInStock > 0, otherwise "Out of Stock"● Print the result.
             //var product1 =  new  { Name = "product1",Price = 1000,StockStatus = 2 };
 
@@ -85,13 +84,24 @@ namespace Linq01
             #endregion
 
             #region 8. Sort ProductList by Category ascending, then within each  category, sort by UnitPrice descending. 
-          //var  byCategoryThenPrice = from p in ProductList
-          //                        orderby p.Category, p.UnitPrice descending
-          //                        select p;
+            //var  byCategoryThenPrice = from p in ProductList
+            //                        orderby p.Category, p.UnitPrice descending
+            //                        select p;
 
-          //  foreach (var product in byCategoryThenPrice)
-          //      Console.WriteLine(product);
+            //  foreach (var product in byCategoryThenPrice)
+            //      Console.WriteLine(product);
 
+
+            #endregion
+
+            #region 9. Get all products from the "Beverages" category, sorted by  UnitsInStock descending. Print name and stock.
+            //   var beveragesInStock = from p in ProductList
+            //                          where p.Category == "Beverages"
+            //                          orderby p.UnitsInStock descending
+            //                          select new { p.ProductName, p.UnitsInStock };
+
+            //foreach (var item in beveragesInStock)
+            //    Console.WriteLine($"{item.ProductName}: {item.UnitsInStock} units in stock");
 
             #endregion
         }
