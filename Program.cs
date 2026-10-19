@@ -3,6 +3,7 @@ using System;
 using System.Data.Common;
 using System.Drawing;
 using System.Linq;
+using System.Numerics;
 using System.Xml.Linq;
 
 namespace Linq01
@@ -104,6 +105,21 @@ namespace Linq01
             //    Console.WriteLine($"{item.ProductName}: {item.UnitsInStock} units in stock");
 
             #endregion
+
+            #region 10. Using QUERY SYNTAX with a compound from clause, list  all orders placed in 1997 or later showing CustomerID and OrderDate.
+            //  var orders = from c in DataSources.Source.CustomerList
+            //               from o in c.Orders
+            //               where o.OrderDate.Year >= 1997
+            //               select new { c.CustomerID, o.OrderDate };
+
+            //foreach (var item in orders)
+            //    Console.WriteLine($"CustomerID: {item.CustomerID}, OrderDate: {item.OrderDate.ToShortDateString()}");
+
+
+            #endregion
+
+
+
         }
     }
 }
