@@ -118,7 +118,13 @@ namespace Linq01
 
             #endregion
 
+            #region 11. Show position number alongside ProductName 
+            //  var productsWithPosition = ProductList.Select((p, index) => new { Position = index + 1, p.ProductName });
 
+            //foreach (var item in productsWithPosition)
+            //    Console.WriteLine($"{item.Position}. {item.ProductName}");
+
+            #endregion
 
         }
     }
