@@ -1,8 +1,9 @@
-﻿using System;
-using Linq01.Models;
-using System.Xml.Linq;
-using System.Linq;
+﻿using Linq01.Models;
+using System;
 using System.Data.Common;
+using System.Drawing;
+using System.Linq;
+using System.Xml.Linq;
 
 namespace Linq01
 {
@@ -66,7 +67,10 @@ namespace Linq01
             #endregion
 
 
-            #region
+            #region 6. Create a new anonymous type with three properties: ● Name → the product name● Price → the unit price● StockStatus → a string: "Available" if UnitsInStock > 0, otherwise "Out of Stock"● Print the result.
+            //var product1 =  new  { Name = "product1",Price = 1000,StockStatus = 2 };
+
+            //Console.WriteLine($"Name: {product1.Name}, Price: {product1.Price}, StockStatus: {(product1.StockStatus > 0 ? "Available" : "Out of Stock")}");
 
             #endregion
         }
