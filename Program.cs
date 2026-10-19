@@ -53,6 +53,22 @@ namespace Linq01
 
             #endregion
 
+            #region 5. Get all products that are in stock (UnitsInStock > 0) and   belong to the "Condiments" category.
+
+            //var inStockCondiments = from p in ProductList
+            //                        where p.UnitsInStock > 0 && p.Category == "Condiments" // الcategory دي مش موجودة لوحدها اسمها دايما Spices & Condiments ف يا اما نسيبها كدا يا اما نكتبها ع بعض يا اما نحقق الكود الجاي اللي معمول كومنت 
+            //                        where p.UnitsInStock > 0 && p.Category.Contains("Condiments")
+            //                        select new { p.ProductName, p.UnitPrice };
+
+            //foreach (var item in inStockCondiments)
+            //    Console.WriteLine($"{item.ProductName}: {item.UnitPrice:C}");
+
+            #endregion
+
+
+            #region
+
+            #endregion
         }
     }
 }
