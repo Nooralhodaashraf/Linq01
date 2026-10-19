@@ -22,6 +22,14 @@ namespace Linq01
                 Console.WriteLine($"{item.ProductName}: {item.UnitPrice:C}");
             #endregion
 
+            #region 2. Get a list of only the product names from ProductList. Print each name.
+            
+            var productNames = from p in ProductList
+                               select p.ProductName;
+
+            foreach (var name in productNames)
+                Console.WriteLine(name);
+            #endregion
 
         }
     }
