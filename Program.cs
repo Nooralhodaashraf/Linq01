@@ -1,10 +1,12 @@
 ﻿using Linq01.Models;
 using System;
 using System.Data.Common;
+using System.Diagnostics.Metrics;
 using System.Drawing;
 using System.Linq;
 using System.Numerics;
 using System.Xml.Linq;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Linq01
 {
@@ -126,6 +128,31 @@ namespace Linq01
 
             #endregion
 
+            #region  12. Sort first by-word length and then by a case -insensitive sort of the words in an array.  
+            // var Arr = new string[] { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+            //    var sortedWords = from word in Arr
+            //                      orderby word.Length, word.ToLower()
+            //                      select word;  
+
+            //foreach (var word in sortedWords)
+            //    Console.WriteLine(word);
+
+
+            #endregion
+
+            #region 13. Create a list of all digits in the array whose second   letter is 'i' that is reversed from the order in the original array.
+            //var Arr = new string[] { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+
+            //var digitsWithI = from digit in Arr
+            //                  where digit.Length > 1 && digit[1] == 'i'
+            //                  orderby Array.IndexOf(Arr, digit) descending
+            //                  select digit;
+
+            //foreach (var digit in digitsWithI)
+            //    Console.WriteLine(digit);
+
+
+            #endregion
         }
     }
 }
