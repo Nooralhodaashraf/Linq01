@@ -1,4 +1,4 @@
-﻿namespace LINQ.Models
+﻿namespace Linq01.Models
 {
 	public class Order
 	{

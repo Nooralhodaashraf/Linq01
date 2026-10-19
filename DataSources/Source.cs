@@ -1,6 +1,6 @@
-﻿using LINQ.Models;
+﻿using Linq01.Models;
 
-namespace LINQ.DataSources
+namespace Linq01.DataSources
 {
 	public static class Source
 	{
